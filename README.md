@@ -33,6 +33,8 @@ Clinical trial data management pipeline using deep learning
      [pdfprocessing](https://github.com/moonh1/DeepSpleen/tree/master/matlab/makepdf_spleen)
 
 
+--------------------------------------------------------------------------------------------------------------
+
 ## XNAT_Upload
 send_disk bash script is an initial function for transferring dicom image to XNAT.
 send_disk also includes process for commenting dicom header with 'Patient Comments' field for locating XNAT project directory. Data uploading process and overall pipeline are not exactly connected, so it needs to be improved as one combined procedure in the future. Python functions comment.py and storescu.py are for this process.
@@ -59,10 +61,15 @@ matlab directory is largely composed with three procedures.
    - After post-processing step, we make output result as pdf documents so that the clinicians more easily demonstrate it. Generated result cannot be used as clinical purpose, but can be utilized as demonstration purpose.
    
 
+--------------------------------------------------------------------------------------------------------------
+
 ## Sample Output PDF
 ![](image/Scan_1.png)
 
 (Optional) whole body segmentation: [pdfview_2.1.pdf](https://github.com/moonh1/Abdomen_seg_Pipeline/files/1584726/pdfview_2.1.pdf)
+
+
+--------------------------------------------------------------------------------------------------------------
 
 ## History
 - ver 1.0.1 (Uploaded Dec 11, 2017)

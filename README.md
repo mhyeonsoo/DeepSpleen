@@ -12,14 +12,22 @@ Clinical trial data management pipeline using deep learning
 
 ##### **Preprocessing**
 4. Image resampling, format converting with preprocessing
-[preprocessing](https://github.com/moonh1/DeepSpleen/tree/master/matlab/prepro_spleen)
+
+  [preprocessing](https://github.com/moonh1/DeepSpleen/tree/master/matlab/prepro_spleen)
 
 ##### **Segmentation**
 5. Running 'segmentation' using Convolutional neural network
 
-##### **Postprocessing**
+  [Segmentation](https://github.com/moonh1/DeepSpleen/tree/master/extra/python)
+
+##### **Postprocessing & Making PDF Views**
 6. Resampling into original dimension, postprocessing afterwards
+
+  [postprocessing](https://github.com/moonh1/DeepSpleen/tree/master/matlab/postpro_spleen)
+  
 7. Show PDF file for demonstration
+
+  [pdfprocessing](https://github.com/moonh1/DeepSpleen/tree/master/matlab/makepdf_spleen)
 
 
 

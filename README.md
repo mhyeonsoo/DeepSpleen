@@ -3,10 +3,10 @@ Clinical trial data management pipeline using deep learning
 
 ## *General procedures*
 ##### **Data Uploading & Storage**
+(Optional Process for storage)
 1. Getting Dicom clinical trial files
 2. Automated dicom push access to xnat server 
 3. Quality assurance for purposes
-(Processes above are done optionally)
 
 ##### **Preprocessing**
 4. Image resampling, format converting with preprocessing
@@ -46,7 +46,7 @@ Using functions in this directory, you will be able to get pdf files that show a
 This can not be used for clinical purpose. This is only for the tecnical demonstration.
 
 # Sample Output PDF
-![](image/11.png)
+![](image/Scan_1.png)
 
 (Optional:) whole body segmentation: [pdfview_2.1.pdf](https://github.com/moonh1/Abdomen_seg_Pipeline/files/1584726/pdfview_2.1.pdf)
 

@@ -1,4 +1,5 @@
 <img align="right" width="180" height="150" src="https://github.com/moonh1/DeepSpleen/blob/master/extra/masilablogo.jpg">
+
 # *DeepSpleen*
 
 Clinical trial data management pipeline using deep learning

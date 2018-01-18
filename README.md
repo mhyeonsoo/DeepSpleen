@@ -1,6 +1,6 @@
 # *DeepSpleen*
 Clinical trial data management pipeline using deep learning
-<img align="right" width="50" height="50" src="https://github.com/moonh1/DeepSpleen/blob/master/extra/masilablogo.jpg">
+<img align="right" width="120" height="120" src="https://github.com/moonh1/DeepSpleen/blob/master/extra/masilablogo.jpg">
 --------------------------------------------------------------------------------------------------------------
 
 ## *General procedures*

@@ -50,14 +50,18 @@ Files to package for Standalone
     If you have version 9.0.1 of the MATLAB Runtime installed in 
     
     /mathworks/home/application/v901, run the shell script as:
+    
     ```
        ./run_preprocessing.sh /mathworks/home/application/v901
     ```   
+    
     If you have MATLAB installed in /mathworks/devel/application/matlab, 
     run the shell script as:
+    
     ```
        ./run_preprocessing.sh /mathworks/devel/application/matlab
     ```
+    
 -MCRInstaller.zip
    -if end users are unable to download the MATLAB Runtime using the above  
     link, include it when building your component by clicking 

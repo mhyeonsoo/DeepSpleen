@@ -1,0 +1,10 @@
+#Build the docker
+sudo nvidia-docker build -t hyeonsoo/deeplearning:DeepSpleen .
+
+# Full command to run DeepSpleen from command line
+sudo nvidia-docker run -it --rm -v /share4/hyeonsoo/SegPipeline/docker_spleen/INPUTS/:/INPUTS/ -v /share4/hyeonsoo/SegPipeline/docker_spleen/OUTPUTS/:/OUTPUTS hyeonsoo/deeplearning:DeepSpleen bash -c 'source /extra/fsl_510_eddy_511/etc/fslconf/fsl.sh && /extra/run_deep_spleen.sh'
+
+# Push docker to repo
+sudo docker push hyeonsoo/deeplearning:DeepSpleen
+
+

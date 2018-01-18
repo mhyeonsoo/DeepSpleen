@@ -4,8 +4,8 @@ start=$(date +%s.%N)
 # dicom to nifty
 #rm -r /OUTPUTS/*
 #mkdir /OUTPUTS/dicom2nifti
-#/extra/dcm2nii -a y -r n -o /OUTPUTS/dicom2nifti/ /INPUTS/
-#mv /OUTPUTS/dicom2nifti/*.nii.gz /OUTPUTS/dicom2nifti/target_img.nii.gz 
+/extra/dcm2nii -a y -r n -o /OUTPUTS/dicom2nifti/ /INPUTS/
+mv /OUTPUTS/dicom2nifti/*.nii.gz /OUTPUTS/dicom2nifti/target_img.nii.gz 
 
 # reorient to standard before processing
 ./extra/fslreorient2std /OUTPUTS/dicom2nifti/*

@@ -23,7 +23,8 @@ from the MathWorks Web site by navigating to
    
 For more information about the MATLAB Runtime and the MATLAB Runtime installer, see 
 Package and Distribute in the MATLAB Compiler documentation  
-in the MathWorks Documentation Center.    
+in the MathWorks Documentation Center.  
+
 ---------------------------------------------------------------------------------------------------------
 
 2. Files to Deploy and Package
@@ -37,7 +38,7 @@ Files to package for Standalone
    -to run the shell script, type
    
     ```
-       ./run_postprocessing.sh <mcr_directory> <argument_list>
+      ./run_postprocessing.sh <mcr_directory> <argument_list>
     ```
     
     at Linux or Mac command prompt. <mcr_directory> is the directory 

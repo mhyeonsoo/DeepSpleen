@@ -42,7 +42,7 @@ extra directory includes all the binary files from matlab codes to run on docker
 run_deep_spleen.sh script is called to run pipeline on docker.
 each matlab process is converted into binary file with mcc command that should be typed in the matlab with sudo permit.
 
-[fsl_510_eddy_511]https://github.com/moonh1/DeepSpleen/tree/master/extra/fsl_510_eddy_511) has newest version (measured on 1/18/2017) of fsl from standford. among fsl libraris, fslreorient2std and functions being called on it will be used to rotate input data into same orientation on purpose.
+[fsl_510_eddy_511](https://github.com/moonh1/DeepSpleen/tree/master/extra/fsl_510_eddy_511) has newest version (measured on 1/18/2017) of fsl from standford. among fsl libraris, fslreorient2std and functions being called on it will be used to rotate input data into same orientation on purpose.
 
 python directory has functions for learning-process, with the evaluating trained model on test dataset.
 

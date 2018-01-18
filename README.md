@@ -12,7 +12,7 @@ Clinical trial data management pipeline using deep learning
 
 ##### **Preprocessing**
 4. Image resampling, format converting with preprocessing
-[![Preprocessing](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/moonh1/DeepSpleen/tree/master/matlab/prepro_spleen)
+[preprocessing](https://github.com/moonh1/DeepSpleen/tree/master/matlab/prepro_spleen)
 
 ##### **Segmentation**
 5. Running 'segmentation' using Convolutional neural network

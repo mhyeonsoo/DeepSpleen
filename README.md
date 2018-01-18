@@ -1,6 +1,6 @@
 # *DeepSpleen*
 Clinical trial data management pipeline using deep learning
-
+![Logo](https://github.com/moonh1/DeepSpleen/blob/master/extra/masilablogo.jpg)
 --------------------------------------------------------------------------------------------------------------
 
 ## *General procedures*

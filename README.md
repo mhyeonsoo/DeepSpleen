@@ -2,7 +2,7 @@
 
 # *DeepSpleen*
 
-Clinical trial data management pipeline using deep learning
+Clinical trial Spleen Segmentation pipeline using Deep learning
 
 --------------------------------------------------------------------------------------------------------------
 
@@ -51,11 +51,11 @@ python directory has functions for learning-process, with the evaluating trained
 ## matlab
 matlab directory is largely composed with three procedures.
 1. Pre-processing functions.
-  - For training the data, you need to resample the original testsets according to the Network and trained model that you       want to use. Since every network has different dimensions of models, you have to make a function that deals with the         process.
+   - For training the data, you need to resample the original testsets according to the Network and trained model that you       want to use. Since every network has different dimensions of models, you have to make a function that deals with the         process.
     Besides, importantly, the input data going into segmentation function should be 2D images. So you can slice 3D nii files     into 2D images. (Both training and test set)
 
 2. Post-processing functions.
-  - After having segmentation result, we have to check wheter segmentation has been conducted well or not. For this, Post-       processing functions will play a role. You can get the final segmentation 3D nii files whose dimensions are exactly same as very-original files. The number of views you used will be merged into one 3D rengering image. If the segmentation was done perfectly, when you overlay the result nii files on the original nii files, you could see the segmented organ on the correct field of abdomen.
+   - After having segmentation result, we have to check wheter segmentation has been conducted well or not. For this, Post-       processing functions will play a role. You can get the final segmentation 3D nii files whose dimensions are exactly same as very-original files. The number of views you used will be merged into one 3D rengering image. If the segmentation was done perfectly, when you overlay the result nii files on the original nii files, you could see the segmented organ on the correct field of abdomen.
 
 3. makepdf_spleen functions.
    - After post-processing step, we make output result as pdf documents so that the clinicians more easily demonstrate it. Generated result cannot be used as clinical purpose, but can be utilized as demonstration purpose.
@@ -78,5 +78,5 @@ matlab directory is largely composed with three procedures.
 
 - ver 1.0.2 (Uploaded Jan 18, 2018)
   - [x] Added docker image to merge whole process
-  - [x] Spltted pre & post processing functions
+  - [x] Splitted pre & post processing functions
   - [x] No more need to install packages (Only have to build docker)

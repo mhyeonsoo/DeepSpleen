@@ -61,6 +61,8 @@ matlab directory is largely composed with three procedures.
    - After post-processing step, we make output result as pdf documents so that the clinicians more easily demonstrate it. Generated result cannot be used as clinical purpose, but can be utilized as demonstration purpose.
    
 
+--------------------------------------------------------------------------------------------------------------
+
 ## Docker
 Docker is for making whole pipeline processes to be an image (not a real 'image') togehter.
 For running pipeline, there exist a bunch of requirements and pre-installation process needed. These required packages oftenly could be more than some gigabytes, so that it takes lot of time and memories for user to search those packages and install them by theirselves.

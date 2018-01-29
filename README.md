@@ -79,11 +79,11 @@ Docker can reduce those time first of all. As a '[Dockerfile](https://github.com
 --------------------------------------------------------------------------------------------------------------
 
 ## History
-- ver 1.0.1 (Uploaded Dec 11, 2017)
+- Dec 11, 2017
   - [x] Manual XNAT access 
   - [x] separated function calls and results
 
-- ver 1.0.2 (Uploaded Jan 18, 2018)
+- Jan 18, 2018
   - [x] Added docker image to merge whole process
   - [x] Splitted pre & post processing functions
   - [x] No more need to install packages (Only have to build docker)

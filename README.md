@@ -87,3 +87,8 @@ Docker can reduce those time first of all. As a '[Dockerfile](https://github.com
   - [x] Added docker image to merge whole process
   - [x] Splitted pre & post processing functions
   - [x] No more need to install packages (Only have to build docker)
+  
+- Jan 30, 2018
+  - [x] Included FSL packages into docker image
+  - [x] Added reorientation function for have all the input niftis into standard orientation.
+  - [x] Paper abstract 

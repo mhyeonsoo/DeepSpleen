@@ -93,7 +93,7 @@ Docker can reduce those time first of all. As a '[Dockerfile](https://github.com
   - [x] Added reorientation function for have all the input niftis into standard orientation.
   - [x] Paper abstract 
   
- - Feb 6, 2018
+- Feb 6, 2018
   - [x] Edited QA for choosing data to use on purpose
   - [x] Have been uploaded 36,733 dicoms for testing pipeline & QA Process
   

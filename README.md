@@ -97,3 +97,5 @@ Docker can reduce those time first of all. As a '[Dockerfile](https://github.com
   - [x] Edited QA for choosing data to use on purpose
   - [x] Have been uploaded 36,733 dicoms for testing pipeline & QA Process
   
+- Feb 11, 2018
+  - [x] Tested 36,733 dicoms -> Uloaded to Vanderbilt Box Repository

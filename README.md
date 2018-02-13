@@ -73,7 +73,7 @@ Docker can reduce those time first of all. As a '[Dockerfile](https://github.com
 ## Sample Output PDF
 ![](image/Scan_1.png)
 
-(Optional) whole body segmentation: [pdfview_2.1.pdf](https://github.com/moonh1/Abdomen_seg_Pipeline/files/1584726/pdfview_2.1.pdf)
+(Optional) whole body segmentation: [pdfview_2.1.pdf](https://github.com/moonh1/DeepSpleen/blob/master/image/pdfview_2.1.pdf)
 
 
 --------------------------------------------------------------------------------------------------------------

@@ -99,3 +99,6 @@ Docker can reduce those time first of all. As a '[Dockerfile](https://github.com
   
 - Feb 11, 2018
   - [x] Tested 36,733 dicoms -> Uloaded to Vanderbilt Box Repository
+
+- Mar 2, 2018
+  - [x] Original / Overlaid iamges on HTML file sent to M.D. for confirmation.

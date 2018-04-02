@@ -78,6 +78,8 @@ Docker can reduce those time first of all. As a '[Dockerfile](https://github.com
 
 --------------------------------------------------------------------------------------------------------------
 
+## Quantitative Analysis
+
 ## History
 - Dec 11, 2017
   - [x] Manual XNAT access 
@@ -102,3 +104,9 @@ Docker can reduce those time first of all. As a '[Dockerfile](https://github.com
 
 - Mar 2, 2018
   - [x] Original / Overlaid iamges on HTML file sent to M.D. for confirmation.
+ 
+- Mar 24, 2018
+  - [x] Qualitative / Quantitative Analysis - using Bland & Altman Plot
+  
+- Mar 26, 2018
+  - [x] Written completed as Master's Thesis Paper

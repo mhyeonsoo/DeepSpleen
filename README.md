@@ -80,6 +80,9 @@ Docker can reduce those time first of all. As a '[Dockerfile](https://github.com
 
 ## Quantitative Analysis
 
+Bland Altman Plot of the spleen volume from the pipeline & Volume estimation from Linear regression method
+(https://github.com/moonh1/DeepSpleen/blob/master/image/BlandAltman.png)
+
 ## History
 - Dec 11, 2017
   - [x] Manual XNAT access 

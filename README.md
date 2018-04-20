@@ -22,6 +22,9 @@ Clinical trial Spleen Segmentation pipeline using Deep learning
 5. Running 'segmentation' using Convolutional neural network
 
      [Segmentation](https://github.com/moonh1/DeepSpleen/tree/master/extra/python)
+     
+     [Reference](https://github.com/MASILab/EssNet) 
+     from Huo, Yuankai et al
 
 ##### **Postprocessing & Making PDF Views**
 6. Resampling into original dimension, postprocessing afterwards
